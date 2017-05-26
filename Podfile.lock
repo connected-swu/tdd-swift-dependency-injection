@@ -1,0 +1,18 @@
+PODS:
+  - Nimble (6.0.0)
+  - Quick (1.0.0)
+  - Swinject (2.0.0)
+
+DEPENDENCIES:
+  - Nimble
+  - Quick
+  - Swinject
+
+SPEC CHECKSUMS:
+  Nimble: 8fb9b4b34c535b2f32f52c6b9852d6f02d48610b
+  Quick: 8024e4a47e6cc03a9d5245ef0948264fc6d27cff
+  Swinject: 2e964a80d70ab09b3949c99032711f89147bfd60
+
+PODFILE CHECKSUM: bfec4f9ecb55f51c886b86d68340fa8e1b10f896
+
+COCOAPODS: 1.1.1
