@@ -29,6 +29,7 @@ class SwuMyRouterConstructorInjectedSpec: QuickSpec {
             beforeEach {
                 testUrlHandling = TestMyUrlHandling()
                 subject = SwuMyRouterConstructorInjected(testUrlHandling)
+                
                 /*
                 let container = Container()
                 container.register(MyUrlHandling.self) { _ in testUrlHandling }
@@ -36,7 +37,8 @@ class SwuMyRouterConstructorInjectedSpec: QuickSpec {
                     SwuMyRouterConstructorInjected(r.resolve(MyUrlHandling.self)!)
                 })
                 subject = container.resolve(SwuMyRouterConstructorInjected.self)
-                */
+                 */
+ 
                 subject.google("hello")
             }
             it("should send user to google with correct query") {
