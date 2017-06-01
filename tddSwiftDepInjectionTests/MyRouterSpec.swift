@@ -22,7 +22,7 @@ class UIApplicationMockInstance: URLHandler {
 
 class MyRouterSpec: QuickSpec {
     override func spec() {
-        describe("router") {
+        xdescribe("router") {
             var subject: MyRouter!
             
             var testUIApplication = UIApplicationMockInstance()
@@ -43,7 +43,7 @@ class MyRouterSpec: QuickSpec {
             }
         }
         
-        describe("router property injection") {
+        xdescribe("router property injection") {
             var subject: MyRouterProperty!
             
             let testUIApplication = UIApplicationMockInstance()
