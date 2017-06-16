@@ -19,7 +19,7 @@ class MyRouterSpec: QuickSpec {
                 subject.google("hello")
             }
             it("should send user to google with correct query") {
-                //huh?
+                //huh?  is there a missing dependency or hidden state?
                 //https://www.google.ca/#q=hello
             }
         }
